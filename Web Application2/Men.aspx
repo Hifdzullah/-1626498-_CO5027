@@ -1,21 +1,18 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Web_Application2.Default" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Men.aspx.cs" Inherits="Web_Application2.Men" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    Homepage: Ralph Lauren Perfumes
+    Men:Ralph Lauren Perfumes
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Heading1" runat="server">
-    Ralph Lauren Perfumes
-</asp:Content> 
-
-
+    Men Perfumes
+</asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-   
-      <table class="tbl">
+
+     <table class="tbl">
 
         <tr>
             <td class="tblhead">
-                All Products</td>
+                For Him</td>
         </tr>
          
         <tr>
@@ -45,19 +42,17 @@
             </tr>
             <tr>
                
-                <td style="height: 21px" >
+                <td >
                                 Name :
                                 Polo red
                 </td>
-                <td style="height: 21px">
+                <td>
                                 Name :
-                                Polo red
+                                Polo Blue
                 </td>
-                <td style="height: 21px" >
-                                Name :
-                                Polo red
-                </td>
-                <td style="height: 21px" >
+                <td >
+                                Name : Polo Number Two (Pink)</td>
+                <td >
                                 Name :
                                 Polo red
                 </td>
@@ -68,22 +63,22 @@
 
              <td>
                                 Price :
-                                $200.00
-                                 <a class="firstbutton" href="Product1.aspx">View Product</a>   
+                                $65.00
+                                 <a class="firstbutton" href="Product1.aspx">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $70.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $60.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $65.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 </tr>
@@ -125,50 +120,41 @@
             </tr>
             <tr>
                 <td >
-                                Name :
-                                Polo red
-                </td>
+                                Name : Polo red </td>
                 <td>
-                                Name :
-                                Polo red
-                </td>
+                                Name : Polo Number 3 (Green)</td>
                 <td >
-                                Name :
-                                Polo red
-                </td>
+                                Name : Polo Number Three (Yellow)</td>
                 <td >
-                                Name :
-                                Polo red
-                </td>
+                                Name : Polo Black</td>
               
             </tr>
             <tr>
                 <td>
                                 Price :
                                 $200.00
+                                 <a class="firstbutton" href="Product1.aspx">View Product</a>            
+                </td>
+                <td>
+                                Price :
+                                $50.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $40.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
-                                 <a class="firstbutton" href="About.html">View Product</a>            
-                </td>
-                <td>
-                                Price :
-                                $200.00
+                                $82.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                
             </tr>
         </table>
                 </table>
-             
+   
 </asp:Content>
-
 
 

@@ -1,21 +1,16 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Web_Application2.Default" %>
-
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Women.aspx.cs" Inherits="Web_Application2.Women" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    Homepage: Ralph Lauren Perfumes
+    Women:Ralph Lauren Perfumes
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Heading1" runat="server">
-    Ralph Lauren Perfumes
-</asp:Content> 
-
-
+    Women Perfumes
+</asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-   
-      <table class="tbl">
+     <table class="tbl">
 
         <tr>
             <td class="tblhead">
-                All Products</td>
+                For Her</td>
         </tr>
          
         <tr>
@@ -29,10 +24,10 @@
         <table class="tbl" >
             <tr>
                 <td>
-                    <img src ="~/Images/Product1.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product9.jpg" runat="server" class="imageone"/>
                 </td>
                 <td>
-                    <img src ="~/Images/Product2.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product10.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
                     <img src ="~/Images/Product 3.jpg" runat="server" class="imageone"/>
@@ -45,19 +40,19 @@
             </tr>
             <tr>
                
-                <td style="height: 21px" >
+                <td >
                                 Name :
                                 Polo red
                 </td>
-                <td style="height: 21px">
+                <td>
                                 Name :
                                 Polo red
                 </td>
-                <td style="height: 21px" >
+                <td >
                                 Name :
                                 Polo red
                 </td>
-                <td style="height: 21px" >
+                <td >
                                 Name :
                                 Polo red
                 </td>
@@ -69,7 +64,7 @@
              <td>
                                 Price :
                                 $200.00
-                                 <a class="firstbutton" href="Product1.aspx">View Product</a>   
+                                 <a class="firstbutton" href="Product1.aspx">View Product</a>            
                 </td>
                 <td>
                                 Price :
@@ -146,7 +141,7 @@
                 <td>
                                 Price :
                                 $200.00
-                                 <a class="firstbutton" href="About.html">View Product</a>            
+                                 <a class="firstbutton" href="Product1.aspx">View Product</a>            
                 </td>
                 <td>
                                 Price :
@@ -167,8 +162,4 @@
             </tr>
         </table>
                 </table>
-             
 </asp:Content>
-
-
-
