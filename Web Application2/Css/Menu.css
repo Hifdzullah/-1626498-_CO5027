@@ -7,7 +7,7 @@
 
 /*--Navigation menu--*/
 
-#menu ul{
+#nav ul{
 	
 	overflow:hidden;
     height:42px;
@@ -21,15 +21,16 @@
     left: 1px;
 }
 
-#menu li{
+#nav li{
     float:left;
     width: 130px;
     padding-left:24px;
+    
 
    
 }
 
-#menu li a{
+#nav li a{
     font-family:Poppins,Helvetica, Neue,Verdana,Arial,sans-serif;
     color:#000000;
     display:block;
@@ -42,12 +43,16 @@
     padding:14px 16px;
 
 }
-#menu li a:hover{
+#nav li a:hover{
     background-color:#d3d3d3;
     color:#ffffff;
     
 }
 
-#menu li a.active{
+#nav li a.active{
     background-color:#a09b9b;
+}
+
+#panelheader li a:hover{
+    color:#ffffff;
 }

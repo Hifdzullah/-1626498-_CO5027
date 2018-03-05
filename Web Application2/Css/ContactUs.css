@@ -1,0 +1,148 @@
+﻿#tbl{
+     border: thin solid #008000; 
+     width: 625px; 
+     left: -1px; 
+     top: 0px;
+}
+.tblhead table{
+    float:right;
+
+}
+.tblhead tr{
+    width:333px;
+}
+.tblhead td{
+    width:937px;
+    
+}
+.tblloginy td{
+    width:937px;
+}
+.tblwidth1{
+    width:957px;
+    height:151px;
+  
+}
+.tblwidth1height td{
+    height:20px;
+}
+#FirstNameInput{
+ 
+  background-size:23px 22px;
+  background-position:10px 5px;
+  background-repeat:no-repeat;
+  float:right;
+  font-size: 13px;
+  padding:12px 39px;
+  border: 1px solid #000000;
+  margin-right:10px;
+  width: 220px;
+  height: 5px;
+}
+
+/*Input box style*/
+#Firstinput {
+   
+   
+    font-size: 13px;
+    padding: 12px 39px;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    width: 220px;
+    height: 5px;
+}
+.Secondinput {
+   
+   
+    font-size: 13px;
+    padding: 12px 39px;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    width: 220px;
+    height: 5px;
+}
+.Thirdinput {
+   
+   
+    font-size: 13px;
+    padding: 12px 39px;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    width: 220px;
+    height: 5px;
+}
+.Fourthinput {
+   
+   
+    font-size: 13px;
+    padding: 12px 39px;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    width: 220px;
+    height: 5px;
+}
+
+.Fifthinput {
+    font-size: 13px;
+    padding: 12px 39px;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    width: 220px;
+    height: 5px;
+}
+
+.Sixthinput {
+   
+   
+    font-size: 13px;
+    padding: 12px 39px;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    width: 220px;
+    height: 5px;
+}
+.Seveninput {
+   
+   
+    font-size: 13px;
+    padding: 12px 39px;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    width: 220px;
+    height: 5px;
+}
+.Eightinput {
+   
+   
+    font-size: 13px;
+    padding: 12px 39px;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    width: 220px;
+    height: 70px;
+}
+
+/*Button*/
+.Contactbutton{
+
+    text-decoration:none;
+    border-style: none;
+	border-width: medium;
+	padding: 15px 25px;
+	font-size: 13px;
+	font-family:"Arial";
+	text-align: center;
+	color: #ffffff;
+	background-color: #cd5c5c;
+    float:left;
+    margin-top:26px;
+    height: 18px;
+    margin-left: 36px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 137px;
+}
+.Contactbutton:hover{
+
+    background-color:#dbdbdb;
+}

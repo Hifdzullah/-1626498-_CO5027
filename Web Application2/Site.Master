@@ -4,16 +4,18 @@
 
 <html lang="en">
 <head runat ="server">
-<meta charset="utf-8" />
+<meta charset="utf-8">
 <title>
     
     <asp:ContentPlaceHolder ID="Title" runat ="server">
      </asp:ContentPlaceHolder>
 </title>
-      <link href="Css/StyleSheet.css" rel="stylesheet" type="text/css">
+
+      <link href="~/Css/StyleSheet.css" rel="stylesheet" type="text/css">
       <link href="Css/Menu.css" rel="stylesheet" type="text/css">
-      <link href="Css/Product.css" rel="stylesheet" type="text/css" />
-        
+      <link href="Css/Product.css" rel="stylesheet" type="text/css" >
+      <link href="Css/ContactUs.css" rel="stylesheet" type="text/css" >
+          
 </head>
 
 <body runat ="server">
@@ -21,13 +23,13 @@
 <div id="page">
 <div id="panelheader">
     <ul>
-        <li><img src="Images/locateicon.png"><a href="`~/Default" runat="server">LOCATE STORE</a></li>
-        <li><img src="Images/loginicon.png"><a href="`~/Default" runat="server">LOG IN</a></li>
-        <li><img src="Images/registericon.png"><a href="#" runat="server">REGISTER</a></li>
+        <li><img src="Images/locateicon.png"><a href="~/Default.aspx" runat="server">LOCATE STORE</a></li>
+        <li><img src="Images/loginicon.png"><a href="~/Product1.aspx" runat="server">LOG IN</a></li>
+        <li><img src="Images/registericon.png"><a href="Default.aspx" runat="server">REGISTER</a></li>
     </ul>
 </div>
 <div id="header1">
-    <img src="Images/Logo.png"/>
+    <img src="Images/logoicon.png">
 
 </div>
 
@@ -36,12 +38,12 @@
 
 </div>
 
-  <div id="menu">
+  <div id="nav">
 <ul>
      <li><a href="Default.aspx" runat="server">HOME</a></li>
-     <li><a href="Men.aspx" runat="server">MEN</a></li>
-     <li><a href="Women.aspx" runat="server">WOMEN</a></li>
-     <li><a href="ContactUs.aspx" runat="server">CONTACT US</a></li>
+     <li><a href="~/DryFood.aspx" runat="server">DRY FOOD</a></li>
+     <li><a href="~/WetFood.aspx" runat="server">WET FOOD</a></li>
+     <li><a href="~/ContactsUs.aspx" runat="server">CONTACT US</a></li>
   </ul>     
    </div>
 

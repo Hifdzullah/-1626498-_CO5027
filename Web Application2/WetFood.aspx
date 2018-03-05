@@ -1,16 +1,16 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Women.aspx.cs" Inherits="Web_Application2.Women" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WetFood.aspx.cs" Inherits="Web_Application2.Women" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    Women:Ralph Lauren Perfumes
+    Royal Canin: Wet Food
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Heading1" runat="server">
-    Women Perfumes
+    Wet Cat Food
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
      <table class="tbl">
 
         <tr>
             <td class="tblhead">
-                For Her</td>
+                Espically made for your cat dietary needs</td>
         </tr>
          
         <tr>
@@ -24,16 +24,16 @@
         <table class="tbl" >
             <tr>
                 <td>
-                    <img src ="~/Images/Product9.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product9.jpeg" runat="server" class="imageone"/>
                 </td>
                 <td>
                     <img src ="~/Images/Product10.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product 3.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product11.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product 4.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product12.jpg" runat="server" class="imageone"/>
                 </td>
                
 
@@ -41,20 +41,15 @@
             <tr>
                
                 <td >
-                                Name :
-                                Polo red
+                                Name : Kitten
                 </td>
                 <td>
-                                Name :
-                                Polo red
+                                Name : Adult Instinctive (Gravy)</td>
+                <td >
+                                Name : Kitten Instinctive (Jelly)
                 </td>
                 <td >
-                                Name :
-                                Polo red
-                </td>
-                <td >
-                                Name :
-                                Polo red
+                                Name : Adult Instinctive (Jelly)
                 </td>
               
                 
@@ -63,22 +58,22 @@
 
              <td>
                                 Price :
-                                $200.00
+                                $12.00
                                  <a class="firstbutton" href="Product1.aspx">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $10.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $15.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $15.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 </tr>
@@ -104,58 +99,52 @@
         <table class="tbl" >
             <tr>
                 <td>
-                    <img src ="~/Images/Product5.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product13.jpg" runat="server" class="imageone"/>
                 </td>
                 <td>
-                    <img src ="~/Images/Product6.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product14.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product7.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product15.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product8.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product16.jpg" runat="server" class="imageone"/>
                 </td>
                  
                 
             </tr>
             <tr>
                 <td >
-                                Name :
-                                Polo red
+                                Name : Intense Beauty
                 </td>
                 <td>
-                                Name :
-                                Polo red
-                </td>
+                                Name : Persian (Gravy)</td>
                 <td >
-                                Name :
-                                Polo red
-                </td>
+                                Name : Ageing (Gravy)</td>
                 <td >
-                                Name :
-                                Polo red
+                                Name : Sterilised
                 </td>
               
             </tr>
             <tr>
                 <td>
                                 Price :
-                                $200.00
+                                $20.00
                                  <a class="firstbutton" href="Product1.aspx">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $23.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $20.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $18.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                

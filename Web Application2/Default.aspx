@@ -2,10 +2,10 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    Homepage: Ralph Lauren Perfumes
+    Homepage: Royal Canin
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Heading1" runat="server">
-    Ralph Lauren Perfumes
+    Royal Canin Cat Food 
 </asp:Content> 
 
 
@@ -29,37 +29,35 @@
         <table class="tbl" >
             <tr>
                 <td>
-                    <img src ="~/Images/Product1.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product 1.jpg" runat="server" class="imageone"/>
                 </td>
                 <td>
-                    <img src ="~/Images/Product2.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product 2.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product 3.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product3.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product 4.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product4.jpg" runat="server" class="imageone"/>
                 </td>
                
 
             </tr>
             <tr>
                
-                <td style="height: 21px" >
+                <td >
                                 Name :
-                                Polo red
+                                Indoor Fit 25
                 </td>
                 <td style="height: 21px">
-                                Name :
-                                Polo red
+                                Name : Weight Care
+                </td>
+                <td style="height: 21px" >
+                                Name : Light Weight
                 </td>
                 <td style="height: 21px" >
                                 Name :
-                                Polo red
-                </td>
-                <td style="height: 21px" >
-                                Name :
-                                Polo red
+                                Hairball Care
                 </td>
               
                 
@@ -68,22 +66,22 @@
 
              <td>
                                 Price :
-                                $200.00
-                                 <a class="firstbutton" href="Product1.aspx">View Product</a>   
+                                $35.00
+                                 <a class="firstbutton" href="Product.aspx">View Product</a>   
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $40.00
+                                 <a class="firstbutton" href="Product.aspx">View Product</a>            
+                </td>
+                <td>
+                                Price :
+                                $40.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
-                                 <a class="firstbutton" href="About.html">View Product</a>            
-                </td>
-                <td>
-                                Price :
-                                $200.00
+                                $50.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 </tr>
@@ -109,58 +107,52 @@
         <table class="tbl" >
             <tr>
                 <td>
-                    <img src ="~/Images/Product5.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/product5.jpg" runat="server" class="imageone"/>
                 </td>
                 <td>
-                    <img src ="~/Images/Product6.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product 6.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product7.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product 7.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product8.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/product8.jpg" runat="server" class="imageone"/>
                 </td>
                  
                 
             </tr>
             <tr>
                 <td >
-                                Name :
-                                Polo red
-                </td>
+                                Name : Oral Dental Care</td>
                 <td>
-                                Name :
-                                Polo red
+                                Name : Hair and Skin Care</td>
+                <td >
+                                Name : British Shorthair 34
                 </td>
                 <td >
-                                Name :
-                                Polo red
-                </td>
-                <td >
-                                Name :
-                                Polo red
+                                Name : Kitten Dry Food
                 </td>
               
             </tr>
             <tr>
                 <td>
                                 Price :
-                                $200.00
+                                $50.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $55.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $60.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                 <td>
                                 Price :
-                                $200.00
+                                $50.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                

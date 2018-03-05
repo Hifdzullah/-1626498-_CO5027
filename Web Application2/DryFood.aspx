@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Men.aspx.cs" Inherits="Web_Application2.Men" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DryFood.aspx.cs" Inherits="Web_Application2.Men" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    Men:Ralph Lauren Perfumes
+    Royal Canin: Dry Food
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Heading1" runat="server">
-    Men Perfumes
+    Dry Cat Food 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -12,7 +12,7 @@
 
         <tr>
             <td class="tblhead">
-                For Him</td>
+                Escpically made for your cat</td>
         </tr>
          
         <tr>
@@ -26,16 +26,16 @@
         <table class="tbl" >
             <tr>
                 <td>
-                    <img src ="~/Images/Product1.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product 1.jpg" runat="server" class="imageone"/>
                 </td>
                 <td>
-                    <img src ="~/Images/Product2.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product 2.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product 3.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product3.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product 4.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product4.jpg" runat="server" class="imageone"/>
                 </td>
                
 
@@ -43,19 +43,14 @@
             <tr>
                
                 <td >
-                                Name :
-                                Polo red
-                </td>
+                                Name : Indoor Fit 32</td>
                 <td>
-                                Name :
-                                Polo Blue
+                                Name : Weight Care
                 </td>
                 <td >
-                                Name : Polo Number Two (Pink)</td>
+                                Name : Light Weigh Care</td>
                 <td >
-                                Name :
-                                Polo red
-                </td>
+                                Name : Hairball Care</td>
               
                 
             </tr>
@@ -104,35 +99,35 @@
         <table class="tbl" >
             <tr>
                 <td>
-                    <img src ="~/Images/Product5.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/product5.jpg" runat="server" class="imageone"/>
                 </td>
                 <td>
-                    <img src ="~/Images/Product6.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product 6.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product7.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/Product 7.jpg" runat="server" class="imageone"/>
                 </td>
                  <td>
-                    <img src ="~/Images/Product8.jpg" runat="server" class="imageone"/>
+                    <img src ="~/Images/product8.jpg" runat="server" class="imageone"/>
                 </td>
                  
                 
             </tr>
             <tr>
                 <td >
-                                Name : Polo red </td>
+                                Name : Oral Dental Care </td>
                 <td>
-                                Name : Polo Number 3 (Green)</td>
+                                Name : Hair and Skin Care</td>
                 <td >
-                                Name : Polo Number Three (Yellow)</td>
+                                Name : Bristish Shorthair 34</td>
                 <td >
-                                Name : Polo Black</td>
+                                Name : Kitten Fit 22</td>
               
             </tr>
             <tr>
                 <td>
                                 Price :
-                                $200.00
+                                $40.00
                                  <a class="firstbutton" href="Product1.aspx">View Product</a>            
                 </td>
                 <td>
@@ -147,7 +142,7 @@
                 </td>
                 <td>
                                 Price :
-                                $82.00
+                                $50.00
                                  <a class="firstbutton" href="About.html">View Product</a>            
                 </td>
                

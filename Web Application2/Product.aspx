@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Product1.aspx.cs" Inherits="Web_Application2.Product1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Product.aspx.cs" Inherits="Web_Application2.Product1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
     Polo Red: Product View
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Heading1" runat="server">
-    Polo Red
+    Indoor Fit 32 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -28,14 +28,14 @@
            
             <tr>
                 <td>
-                    <img src ="~/Images/Product1.jpg" runat="server" class="imgproduct1"/>
+                    <img src ="~/Images/Product 1.jpg" runat="server" class="imgproduct1"/>
                 </td>
                     
                 <td>
-                   <p>Product Name: Polo Red</p>
+                   <p>Product Name: Indoor Fit 32</p>
                    <p>Price: $65.00</p>
-                   <p>Color: Red</p>
-                   <p>Size: 4.5 OZ (125ml)</p>
+                   <p>Weight: 5kg</p>
+                   <p>&nbsp;</p>
  
                 </td>
             </tr>
@@ -46,8 +46,8 @@
              <td>
                      <a class="firstbutton" href="Men.aspx"> Add to Cart</a>                      
              </td>
-             <td style="width: 979px">
-                 <a class="returnbutton1" href="Men.aspx"> Back to Men Perfumes</a>
+             <td>
+                 <a class="returnbutton1" href="DryFood.aspx"> Back to Dry Cat Food</a>
                      
                      
 

@@ -6,7 +6,5 @@
     Contact Us
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-    Any
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="SecondContent" runat="server">
+    
 </asp:Content>
