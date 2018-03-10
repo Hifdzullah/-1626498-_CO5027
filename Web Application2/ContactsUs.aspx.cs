@@ -13,18 +13,18 @@ namespace Web_Application2
         protected void Page_Load(object sender, EventArgs e)
         {
 
+
         }
 
         protected void btnSendEmail_Click(object sender, EventArgs e)
-        {
-            
+        {            
             // Sends email using a mail server that requires login credentials and a secure connection, e.g. gmail
-
             //create mail client and message with to and from address, and set message subject and body
             SmtpClient smtpClient = new SmtpClient();
             MailMessage msg = new MailMessage("mohdhifdzullah.matali@gmail.com", "mohdhifdzullah.matali@gmail.com");
             msg.Subject = TxtFirstName.Text;
             msg.Body = TxtLastName.Text;
+           
 
             //settings sepcific to the mail service, e.g. server location, port number and that ssl is required
             smtpClient.Host = "smtp.gmail.com";
@@ -50,6 +50,10 @@ namespace Web_Application2
         }
 
         protected void TxtFirstName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        protected void TxtLastName_TextChanged(object sender, EventArgs e)
         {
 
         }

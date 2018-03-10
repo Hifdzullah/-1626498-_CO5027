@@ -7,57 +7,51 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
       
-    <form>
+    <form id="form1" runat="server">
+
     
        <table class="tblhead">
    
     <tr>
-        <td class="tblwidth1">
+        <td class="tblheader">
+            
              Contact Us
-            <br />
-            WE WANT TO HEAR FROM YOU;
-            </td>
+             <br />
+             WE WANT TO HEAR FROM YOU;
+        </td> 
+    </tr>
+    <tr>
+        <td></td>
     </tr>
     <tr>
         <td>
-
+             
             <table id="tbl">
+     
                 <tr>
-                    <td class="tblhead" colspan="2" style="height: 40px">
-                        &nbsp;<br />
-                        Required *</td>
+                    <td></td>
+                    <td></td>   
                 </tr>
-                <tr>
+
+                <tr class="tblFirstName">
                     <td>
-                        &nbsp;</td>
-                    <td style="width: 959px">
-                        &nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="row1">
-                        FIRST NAME  * :
+                       <p > FIRST NAME  * :</p>
                     </td>
-                    <td class="column1">
-                        
-                        <asp:TextBox ID="TxtFirstName"  runat="server" OnTextChanged="TxtFirstName_TextChanged"></asp:TextBox>
-                    </td>
-                   
-                </tr>
-                <tr>
-                    <td class="row2">
-                    </td>
-                    
                     <td>
-                                
+                        <asp:TextBox ID="TxtFirstName" runat="server"  OnTextChanged="TxtFirstName_TextChanged" CssClass="TxtBoxFirstName"></asp:TextBox>       
                     </td>
                 </tr>
                 <tr>
-                    <td class="row3">
-                        LAST NAME *  :
+                    <td style="width: 861px"></td> 
+                    <td></td>
+                </tr>
+                <tr class="tblLastName">
+                    <td>
+                       <p> LAST NAME *  : </p>
                     </td>
-                    <td class="column3">
-                           <input type="text" class="Secondinput" placeholder="Last Name..." title="Type in your last name">
-                           <asp:TextBox ID="TxtLastName" runat="server"></asp:TextBox>
+                    <td>
+                          
+                         <asp:TextBox ID="TxtLastName" runat="server"  OnTextChanged="TxtLastName_TextChanged" CssClass="TxtBoxLastName"></asp:TextBox>   
 
                         </td>
                 </tr>
@@ -85,7 +79,7 @@
                     <td class="row6">
 
                        </td>
-                    <td class="column6" style="width: 959px">
+                    <td class="column6">
 
                     </td>
 
@@ -96,7 +90,7 @@
                         ZIP CODE * :
                         
                     </td>
-                    <td class="column7" style="width: 959px">
+                    <td class="column7">
                           <input type="text" class="Fourthinput" placeholder="Zip code..." title="Type in your zip code">
                     </td>
 
@@ -125,7 +119,7 @@
                     <td class="row10">
 
                         </td>
-                    <td class="column10" style="width: 959px">
+                    <td class="column10">
 
                     </td>
 

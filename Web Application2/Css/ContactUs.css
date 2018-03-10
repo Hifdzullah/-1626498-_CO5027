@@ -1,8 +1,22 @@
 ﻿#tbl{
-     border: thin solid #008000; 
+     border: thin solid #DCDCDC; 
      width: 625px; 
-     left: -1px; 
+     left: 0px; 
      top: 0px;
+     background-color:#F5F5F5;
+     
+}
+#tbl td{
+    width:918px;
+    height:9px;
+}
+.tblhead{
+    width:860px;
+    height: 40px;
+    
+}
+.tblFirstName td{
+    width:953px;
 }
 .tblhead table{
     float:right;
@@ -18,48 +32,45 @@
 .tblloginy td{
     width:937px;
 }
-.tblwidth1{
+.tblheader{
     width:957px;
-    height:151px;
+    height:170px;
   
 }
 .tblwidth1height td{
     height:20px;
 }
-#FirstNameInput{
- 
-  background-size:23px 22px;
-  background-position:10px 5px;
-  background-repeat:no-repeat;
-  float:right;
-  font-size: 13px;
-  padding:12px 39px;
-  border: 1px solid #000000;
-  margin-right:10px;
-  width: 220px;
-  height: 5px;
-}
+
+
 
 /*Input box style*/
-#Firstinput {
+.TxtBoxFirstName {
    
-   
-    font-size: 13px;
-    padding: 12px 39px;
-    border: 1px solid #000000;
+    font-family:Arial;
+    font-size: 15px;
+    padding: 10px 39px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#DCDCDC;
     margin-right: 10px;
     width: 220px;
-    height: 5px;
+    height: 30px;
+    display:inline-block;
+    padding-top: 5px;
 }
-.Secondinput {
+.TxtBoxLastName {
    
-   
-    font-size: 13px;
-    padding: 12px 39px;
-    border: 1px solid #000000;
+    font-family:Arial;
+    font-size: 15px;
+    padding: 10px 39px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#DCDCDC;
     margin-right: 10px;
     width: 220px;
-    height: 5px;
+    height: 30px;
+    display:inline-block;
+    padding-top: 5px;
 }
 .Thirdinput {
    
@@ -145,4 +156,9 @@
 .Contactbutton:hover{
 
     background-color:#dbdbdb;
+}
+/*--Text style--*/
+.tblFirstName p{
+    font-family:Arial;
+    font-size:15px;
 }
