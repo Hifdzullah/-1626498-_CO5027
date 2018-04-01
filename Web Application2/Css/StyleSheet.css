@@ -8,7 +8,7 @@ padding:0 168px;
 #page{
 	width:100%;
 	background-color:#ffffff;
-	height:1300px;
+	height:1500px;
     margin:15px;
 }
 
@@ -102,8 +102,8 @@ body {
 #content{
   margin-top:10px;
   margin:15px;
-margin-left:110px;
-padding-left:10px;
+  margin-left:110px;
+  padding-left:10px;
 padding-right:10px;
 background-color:white;
 }

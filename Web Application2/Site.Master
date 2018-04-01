@@ -10,6 +10,8 @@
     <asp:ContentPlaceHolder ID="Title" runat ="server">
      </asp:ContentPlaceHolder>
 </title>
+     <meta name="viewport" content="initial-scale=1.0">
+     <meta charset="utf-8"> 
 
       <link href="~/Css/StyleSheet.css" rel="stylesheet" type="text/css">
       <link href="Css/Menu.css" rel="stylesheet" type="text/css">
@@ -66,7 +68,8 @@
     </div>
     
     
-    
+    <asp:ContentPlaceHolder ID="GoogleMap" runat="server">
+    </asp:ContentPlaceHolder>
 
 </body>
 </html>

@@ -22,8 +22,8 @@ namespace Web_Application2
             //create mail client and message with to and from address, and set message subject and body
             SmtpClient smtpClient = new SmtpClient();
             MailMessage msg = new MailMessage("mohdhifdzullah.matali@gmail.com", "mohdhifdzullah.matali@gmail.com");
-            msg.Subject = TxtFirstName.Text;
-            msg.Body = TxtLastName.Text;
+            msg.Subject = txtName.Text;
+            msg.Body = txtMessage.Text;
            
 
             //settings sepcific to the mail service, e.g. server location, port number and that ssl is required
@@ -38,22 +38,42 @@ namespace Web_Application2
             try
             {
                 smtpClient.Send(msg);
-                litResult.Text = "<p>Success, mail sent using SMTP with secure connection and credentials</p>";
+                litResult.Text = "<p>Send Sucess, thank you for your respond</p>";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //display the full error to the user
-                litResult.Text = "<p>Send failed: " + ex.Message + ":" + ex.InnerException + "</p>";
+                litResult.Text = "<p>We are sorry, try to resend again or check your internet connection. </p>";
             }
-
-        
+      
         }
 
-        protected void TxtFirstName_TextChanged(object sender, EventArgs e)
+
+        protected void txtEmail_TextChanged(object sender, EventArgs e)
         {
 
         }
-        protected void TxtLastName_TextChanged(object sender, EventArgs e)
+        protected void txtPhoneNo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void txtMobileNo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void txtSubject_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void txtMessage_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void txtName_TextChanged(object sender, EventArgs e)
         {
 
         }

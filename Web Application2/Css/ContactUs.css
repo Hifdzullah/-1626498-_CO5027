@@ -1,164 +1,142 @@
-﻿#tbl{
-     border: thin solid #DCDCDC; 
-     width: 625px; 
-     left: 0px; 
-     top: 0px;
-     background-color:#F5F5F5;
-     
+﻿
+#txtColumn p{
+    font-family:Arial;
+    font-size:13px;
+    text-align:left;
+    width:500px;
+    height:25px;
+    position:relative;
+    left:148px;
 }
-#tbl td{
-    width:918px;
-    height:9px;
+#form{
+    height:600px;
 }
-.tblhead{
-    width:860px;
-    height: 40px;
+
+#tbl{
+    border-style: solid;
+    border-width:thin; 
+    border-color:#DCDCDC; 
+    width: 620px; 
+    background-color:#F5F5F5; 
+    border-bottom:none;
+    position:relative;
+    left:195px;
+}
+#tbl p{
+    font-family:Arial;
+    font-size:15px;
+    text-align:center;
+    width:200px;
+    cursor:default;
+    position:relative;
+    left:35px;
+    top:4px;
     
 }
+#tbl td{
+    width:800px;
+    height:9px;
+}
+
 .tblFirstName td{
     width:953px;
 }
-.tblhead table{
-    float:right;
 
-}
-.tblhead tr{
-    width:333px;
-}
-.tblhead td{
-    width:937px;
-    
-}
-.tblloginy td{
-    width:937px;
-}
-.tblheader{
+.tblColumn{
     width:957px;
     height:170px;
-  
 }
+
 .tblwidth1height td{
     height:20px;
 }
 
-
-
 /*Input box style*/
-.TxtBoxFirstName {
-   
+.txtInput{
     font-family:Arial;
     font-size: 15px;
-    padding: 10px 39px;
+    padding: 9px 39px;
     border-style:solid;
-    border-width:1px;
+    border-width: 1px;
     border-color:#DCDCDC;
-    margin-right: 10px;
-    width: 220px;
-    height: 30px;
+    margin-top: 15px;
+    width: 180px;
+    height: 14px;
     display:inline-block;
-    padding-top: 5px;
 }
-.TxtBoxLastName {
-   
-    font-family:Arial;
+.txtInputMessage{
+    font-family:inherit;
     font-size: 15px;
-    padding: 10px 39px;
+    padding: 9px 39px;
     border-style:solid;
-    border-width:1px;
+    border-width: 1px;
     border-color:#DCDCDC;
-    margin-right: 10px;
-    width: 220px;
-    height: 30px;
+    margin-top: 15px;
+    width: 180px;
+    height: 14px;
     display:inline-block;
-    padding-top: 5px;
-}
-.Thirdinput {
-   
-   
-    font-size: 13px;
-    padding: 12px 39px;
-    border: 1px solid #000000;
-    margin-right: 10px;
-    width: 220px;
-    height: 5px;
-}
-.Fourthinput {
-   
-   
-    font-size: 13px;
-    padding: 12px 39px;
-    border: 1px solid #000000;
-    margin-right: 10px;
-    width: 220px;
-    height: 5px;
-}
-
-.Fifthinput {
-    font-size: 13px;
-    padding: 12px 39px;
-    border: 1px solid #000000;
-    margin-right: 10px;
-    width: 220px;
-    height: 5px;
-}
-
-.Sixthinput {
-   
-   
-    font-size: 13px;
-    padding: 12px 39px;
-    border: 1px solid #000000;
-    margin-right: 10px;
-    width: 220px;
-    height: 5px;
-}
-.Seveninput {
-   
-   
-    font-size: 13px;
-    padding: 12px 39px;
-    border: 1px solid #000000;
-    margin-right: 10px;
-    width: 220px;
-    height: 5px;
-}
-.Eightinput {
-   
-   
-    font-size: 13px;
-    padding: 12px 39px;
-    border: 1px solid #000000;
-    margin-right: 10px;
-    width: 220px;
-    height: 70px;
 }
 
 /*Button*/
 .Contactbutton{
-
+    height: 47px;
+    width: 150px;
     text-decoration:none;
-    border-style: none;
-	border-width: medium;
 	padding: 15px 25px;
-	font-size: 13px;
+	font-size: 14px;
 	font-family:"Arial";
-	text-align: center;
 	color: #ffffff;
 	background-color: #cd5c5c;
-    float:left;
-    margin-top:26px;
-    height: 18px;
-    margin-left: 36px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    width: 137px;
+    position:relative;
+    cursor:pointer;
 }
 .Contactbutton:hover{
-
     background-color:#dbdbdb;
+    color:#000000;
 }
-/*--Text style--*/
-.tblFirstName p{
+
+#literalColumn{
+   width: 618px;
+   height:30px;
+   background-color:#F5F5F5; 
+   position:relative;
+   bottom: 1px;
+   left: 195px;
+   border-style:solid;
+   border-width:thin;
+   border-color:#DCDCDC;
+   border-top:none;
+   font-family:Arial;
+   font-size:14px;    
+}
+/*---Maps---*/
+
+#mapColumnHeading{
+    width: 830px;
+    position:relative;
+    border-top-style:solid;
+    border-top-width:thin;
+    border-top-color:#dbdbdb;   
+    position:relative;
+    left: 85px;
+    position:relative;
+    top: -19px;
+}
+/*---Map---*/
+#mapColumnHeading h3{
     font-family:Arial;
-    font-size:15px;
+    position:relative;
+    top:6px;
+}
+
+#mapColumn{
+    width: 930px;
+    height: 300px;
+    position:relative;
+    background-color:#dbdbdb;
+    left: 35px; 
+}
+#map{
+    width:500px;
+    height:300px
 }
