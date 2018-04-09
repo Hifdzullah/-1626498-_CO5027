@@ -49,15 +49,6 @@ namespace Web_Application2 {
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
         
         /// <summary>
-        /// reqEmailValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator reqEmailValidator;
-        
-        /// <summary>
         /// reqEmail control.
         /// </summary>
         /// <remarks>
@@ -67,13 +58,13 @@ namespace Web_Application2 {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqEmail;
         
         /// <summary>
-        /// txtPhoneNo control.
+        /// reqEmailValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPhoneNo;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator reqEmailValidator;
         
         /// <summary>
         /// txtMobileNo control.

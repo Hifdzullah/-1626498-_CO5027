@@ -1,142 +1,165 @@
-﻿
+﻿/*---Contact Us Stylesheet---*/
 #txtColumn p{
-    font-family:Arial;
-    font-size:13px;
-    text-align:left;
-    width:500px;
-    height:25px;
-    position:relative;
-    left:148px;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: left;
+    width: 610px;
+    height: 30px;
+    position: relative;
+    left: 198px;
+    margin-top:20px;
 }
+
 #form{
     height:600px;
 }
-
+/*---Contact tbl---*/
 #tbl{
     border-style: solid;
-    border-width:thin; 
-    border-color:#DCDCDC; 
+    border-width: thin; 
+    border-color: #DCDCDC; 
     width: 620px; 
-    background-color:#F5F5F5; 
-    border-bottom:none;
-    position:relative;
-    left:195px;
+    background-color: #F5F5F5; 
+    border-bottom: none;
+    position: relative;
+    left: 195px;
 }
+
 #tbl p{
-    font-family:Arial;
-    font-size:15px;
-    text-align:center;
-    width:200px;
-    cursor:default;
-    position:relative;
-    left:35px;
-    top:4px;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+    cursor: default;
+    position: relative;
+    left: 35px;
+    top: 4px;
     
 }
 #tbl td{
-    width:800px;
-    height:9px;
+    width: 800px;
+    height: 9px;
 }
 
 .tblFirstName td{
-    width:953px;
+    width: 953px;
 }
 
 .tblColumn{
-    width:957px;
-    height:170px;
+    width: 957px;
+    height: 170px;
 }
 
 .tblwidth1height td{
-    height:20px;
+    height: 20px;
 }
 
-/*Input box style*/
+/*---Input box style---*/
 .txtInput{
-    font-family:Arial;
+    font-family: Arial;
     font-size: 15px;
     padding: 9px 39px;
-    border-style:solid;
+    border-style: solid;
     border-width: 1px;
-    border-color:#DCDCDC;
+    border-color: #e1e1e1;
     margin-top: 15px;
-    width: 180px;
-    height: 14px;
-    display:inline-block;
-}
-.txtInputMessage{
-    font-family:inherit;
-    font-size: 15px;
-    padding: 9px 39px;
-    border-style:solid;
-    border-width: 1px;
-    border-color:#DCDCDC;
-    margin-top: 15px;
-    width: 180px;
-    height: 14px;
-    display:inline-block;
+    width: 193px;
+    height: 15px;
+    display: inline-block;
 }
 
-/*Button*/
+.txtInputMessage{
+    font-family: inherit;
+    font-size: 15px;
+    padding: 9px 39px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e1e1e1;
+    margin-top: 15px;
+    width: 193px;
+    height: 17px;
+    resize:vertical;
+    vertical-align:baseline;
+}
+
+/*---Button---*/
 .Contactbutton{
     height: 47px;
     width: 150px;
-    text-decoration:none;
+    text-decoration: none;
 	padding: 15px 25px;
 	font-size: 14px;
-	font-family:"Arial";
+	font-family: "Arial";
 	color: #ffffff;
 	background-color: #cd5c5c;
-    position:relative;
-    cursor:pointer;
+    position: relative;
+    cursor: pointer;
 }
 .Contactbutton:hover{
-    background-color:#dbdbdb;
-    color:#000000;
+    background-color: #dbdbdb;
+    color: #000000;
 }
 
+/*---Literal---*/
 #literalColumn{
    width: 618px;
-   height:30px;
-   background-color:#F5F5F5; 
-   position:relative;
+   height: 30px;
+   background-color: #F5F5F5; 
+   position: relative;
    bottom: 1px;
    left: 195px;
-   border-style:solid;
-   border-width:thin;
-   border-color:#DCDCDC;
-   border-top:none;
-   font-family:Arial;
-   font-size:14px;    
+   border-style: solid;
+   border-width: thin;
+   border-color: #DCDCDC;
+   border-top: none;
+   font-family: Arial;
+   font-size: 14px;  
 }
+
 /*---Maps---*/
+#map{
+    width: 500px;
+    height: 300px
+}
 
 #mapColumnHeading{
     width: 830px;
-    position:relative;
-    border-top-style:solid;
-    border-top-width:thin;
-    border-top-color:#dbdbdb;   
-    position:relative;
+    position: relative;
+    border-top: thin solid #dbdbdb;   
+    position: relative;
     left: 85px;
-    position:relative;
     top: -19px;
+    height:26px;
 }
-/*---Map---*/
+
 #mapColumnHeading h3{
-    font-family:Arial;
-    position:relative;
-    top:6px;
+    font-family: Arial;
+    position: relative;
+    top: 8px;
+    left: -1px;
 }
 
 #mapColumn{
     width: 930px;
     height: 300px;
-    position:relative;
-    background-color:#dbdbdb;
+    position: relative;
+    background-color: #dbdbdb;
     left: 35px; 
 }
-#map{
-    width:500px;
-    height:300px
+
+#locationInfo{
+    width: 409px;
+    height: 280px;
+    position: relative;
+    left: 545px;
+    bottom: 294px;
+    background: #ffffff;
+}
+#locationInfo h3{
+    font-family:Arial
+}
+#locationInfo p{
+    text-align: left;
+    font-family: Arial;
+    font-size:14px;
 }

@@ -11,13 +11,13 @@
     <form id="form" runat="server">
 
     <div id="txtColumn">
-                   <p>WE WANT TO HEAR FROM YOU</p>
+                   <p>We want to hear from you! Jot us a note and we will get back to you as soon as possible.</p>
     </div>
          
             <table id="tbl">        
                 <tr>
                     <th>
-                        <p> NAME * :</p>
+                        <p> NAME  :</p>
                     </th>
                     <td> 
                         <asp:TextBox ID="txtName" runat="server"  OnTextChanged="txtName_TextChanged" CssClass="txtInput" ToolTip="Fill in your first name"></asp:TextBox>       
@@ -32,7 +32,7 @@
                 <tr>
                     <th>
 
-                       <p> EMAIL * :</p>
+                       <p> EMAIL  :</p>
                         
                     </th>
                     <td>
@@ -42,24 +42,13 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:RegularExpressionValidator ID="reqEmailValidator" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="* Please enter a valid email address." Font-Names="Arial" Font-Size="Small" ForeColor="#CC3300" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                      
                     </td>
                     <td>
                         <asp:RequiredFieldValidator ID="reqEmail" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="* Field e-mail is required." Font-Names="Arial" Font-Size="Small" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="reqEmailValidator" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="* Please enter a valid email address." Font-Names="Arial" Font-Size="Small" ForeColor="#CC3300" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                     </td>
-                </tr>
-                <tr>
-                    <th>
-                        <p>PHONE NO :</p>
-                    </th>
-                    <td>
-                         <asp:TextBox ID="txtPhoneNo" runat="server"  OnTextChanged="txtPhoneNo_TextChanged" CssClass="txtInput" ToolTip="Fill in your phone number"></asp:TextBox> 
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
+                </tr>            
                 <tr>
                     <th>
                         <p>MOBILE NO : </p>
@@ -74,7 +63,7 @@
                 </tr>
                 <tr>
                     <th>
-                        <p>SUBJECT * :</p>    
+                        <p>SUBJECT  :</p>    
                     </th>
                     <td>
                         <asp:TextBox ID="txtSubject" runat="server"  OnTextChanged="txtSubject_TextChanged" CssClass="txtInput" ToolTip="Fill in Subject"></asp:TextBox> 
@@ -88,7 +77,7 @@
                 </tr>  
                 <tr> 
                     <th>
-                        <p> MESSAGE *  :</p>   
+                        <p> MESSAGE  :</p>   
                     </th>
                     <td>
                         <asp:TextBox ID="txtMessage" runat="server"  OnTextChanged="txtMessage_TextChanged" CssClass="txtInputMessage" ToolTip="Fill in your message" TextMode="MultiLine"></asp:TextBox> 
@@ -114,17 +103,60 @@
                          <h3> Locate Our Store</h3>
                  </div>
                  <div id="mapColumn">
-                      <div id="map"></div>
+                      <div id="map">
                        <script>
                             var map;
                             function initMap() {
-                            map = new google.maps.Map(document.getElementById('map'), {
-                            center: {lat: -34.397, lng: 150.644},
-                            zoom: 8
-                            });
-                         }
+                                var storeLocate = { lat: 4.9031, lng: 114.9398 };
+                                var maplocation = new google.maps.Map(document.getElementById('map'), {
+                                    center: storeLocate,
+                                    zoom: 11,
+                                });
+                                
+                                var contentDescription = '<h3>We Are Here</h3>'+
+                                    '<div id="bodyContent">'+ '<p>Royal Canin Pet Store</p>'
+
+                                var infoWindow = new google.maps.InfoWindow({
+                                    content: contentDescription
+                                });
+
+                                var markLocation = new google.maps.Marker({
+                                    position: storeLocate,
+                                    map: maplocation,
+                                    animation: google.maps.Animation.DROP,
+                                    title: 'Store Location'
+                                });
+                                markLocation.addListener('click', bounceFunction);
+                                function bounceFunction() {
+                                    if (markLocation.getAnimation() !== null) {
+                                        markLocation.setAnimation(null);
+                                    }else{
+                                        markLocation.setAnimation(google.maps.Animation.BOUNCE);
+
+                                    }
+                                }
+
+                                markLocation.addListener('click', function () {
+                                    infoWindow.open(map, markLocation);
+                                });
+
+                                   infoWindow.open(map, markLocation);
+                            }
+
                        </script>
-                       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhvbk89qrO47KbX4y1NWko6HBN-6VVEGM &callback=initMap">
+                       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHoID_wtgvNFmfMMnUvSmpHGmtKeTwmp8 &callback=initMap">
                        </script> 
-                </div>
+                          </div>
+                     </div>
+                     <div id="locationInfo">
+                         <h3>Royal Canin Pet Store</h3>
+                         <br />
+                         <p>Address: Royal Canin Store, Danson Complex, Lot 5345</p>
+                         <br /> 
+                         <p>Call Us: +673 2334334</p>
+                         <br />
+                         <p>Operating Hours: 9:00AM -8:30PM (GST) </p>
+                        
+                     </div>
+                
 </asp:Content>
