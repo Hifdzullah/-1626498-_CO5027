@@ -38,44 +38,15 @@ namespace Web_Application2
             try
             {
                 smtpClient.Send(msg);
-                litResult.Text = "<p>Send Sucess, thank you for your respond</p>";
+                litResult.Text = "<p>Send Success, thank you for your respond. Mail sent using secure connection and credentials</p>";
             }
             catch (Exception)
             {
                 //display the full error to the user
-                litResult.Text = "<p>We are sorry, try to resend again or check your internet connection. </p>";
+                litResult.Text = "<p>Send failed, ry to resend again or check your internet connection. </p>";
             }
       
         }
 
-
-        protected void txtEmail_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        protected void txtPhoneNo_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void txtMobileNo_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void txtSubject_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void txtMessage_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void txtName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

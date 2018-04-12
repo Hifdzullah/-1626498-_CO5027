@@ -27,7 +27,7 @@
     <ul>
         <li><img src="Images/locateicon.png"><a href="~/Default.aspx" runat="server">LOCATE STORE</a></li>
         <li><img src="Images/loginicon.png"><a href="~/Product1.aspx" runat="server">LOG IN</a></li>
-        <li><img src="Images/registericon.png"><a href="Default.aspx" runat="server">REGISTER</a></li>
+        <li><img src="Images/registericon.png"><a href="~/Register.aspx" runat="server">REGISTER</a></li>
     </ul>
 </div>
 <div id="header1">

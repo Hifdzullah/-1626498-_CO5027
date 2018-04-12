@@ -20,7 +20,7 @@
                         <p> NAME  :</p>
                     </th>
                     <td> 
-                        <asp:TextBox ID="txtName" runat="server"  OnTextChanged="txtName_TextChanged" CssClass="txtInput" ToolTip="Fill in your first name"></asp:TextBox>       
+                        <asp:TextBox ID="txtName" runat="server" CssClass="txtInput" ToolTip="Fill in your first name"></asp:TextBox>       
                     </td>
                 </tr>
                 <tr>
@@ -36,7 +36,7 @@
                         
                     </th>
                     <td>
-                          <asp:TextBox ID="txtEmail" runat="server"  OnTextChanged="txtEmail_TextChanged" CssClass="txtInput" ToolTip="Fill in your e-mail"></asp:TextBox> 
+                          <asp:TextBox ID="txtEmail" runat="server" CssClass="txtInput" ToolTip="Fill in your e-mail"></asp:TextBox> 
                     </td>
 
                 </tr>
@@ -54,7 +54,7 @@
                         <p>MOBILE NO : </p>
                     </th>
                     <td>
-                        <asp:TextBox ID="txtMobileNo" runat="server"  OnTextChanged="txtMobileNo_TextChanged" CssClass="txtInput" ToolTip="Fill in your mobile number"></asp:TextBox> 
+                        <asp:TextBox ID="txtMobileNo" runat="server" CssClass="txtInput" ToolTip="Fill in your mobile number"></asp:TextBox> 
                     </td>
                 </tr>
                 <tr>
@@ -66,7 +66,7 @@
                         <p>SUBJECT  :</p>    
                     </th>
                     <td>
-                        <asp:TextBox ID="txtSubject" runat="server"  OnTextChanged="txtSubject_TextChanged" CssClass="txtInput" ToolTip="Fill in Subject"></asp:TextBox> 
+                        <asp:TextBox ID="txtSubject" runat="server"  CssClass="txtInput" ToolTip="Fill in Subject"></asp:TextBox> 
                     </td>
                 </tr>
                 <tr>
@@ -80,7 +80,7 @@
                         <p> MESSAGE  :</p>   
                     </th>
                     <td>
-                        <asp:TextBox ID="txtMessage" runat="server"  OnTextChanged="txtMessage_TextChanged" CssClass="txtInputMessage" ToolTip="Fill in your message" TextMode="MultiLine"></asp:TextBox> 
+                        <asp:TextBox ID="txtMessage" runat="server"  CssClass="txtInputMessage" ToolTip="Fill in your message" TextMode="MultiLine"></asp:TextBox> 
                     </td>
                 </tr>
                 <tr>
@@ -91,7 +91,7 @@
                 </tr>
                 <tr>
                     <td>
-                         <asp:Button ID="btnSendEmail" runat="server" Text="Submit" OnClick="btnSendEmail_Click" CssClass="Contactbutton"/>       
+                         <asp:Button ID="btnSendEmail" runat="server" Text="Submit" CssClass="Contactbutton"/>       
                     </td>
                 </tr>    
             </table>

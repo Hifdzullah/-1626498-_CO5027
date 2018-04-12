@@ -1,4 +1,4 @@
-﻿/*---Website page style---*/
+﻿/*---Site.Master StyleSheet---*/
 #wrapper{
     text-align: center;
     padding: 0 168px;
@@ -7,11 +7,11 @@
 #page{
 	width: 1000px;
 	background-color: #ffffff;
-	height: 1500px;
+	height: 1350px;
     margin: 15px;
 } 
 
-/*--Website header--*/
+/*---Website header---*/
 #panelheader{
     width: 100%;
 	height: 42px;
@@ -151,9 +151,9 @@ body {
     padding:10px;  
 }
 
-/*--Table--*/
+/*--Product.aspx stylsheet--*/
 .tblhead{
-        width:800px;  
+    width:800px;  
 }
 
 .tbl{
@@ -161,4 +161,56 @@ body {
     width:996px;
     height: 342px;
     margin-right:1px;
+}
+
+/*------Registration.aspx stylesheet-------*/
+#Form1{
+    height:500px;
+}
+#txtNote{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.tblReg{
+    width: 620px; 
+    height: 300px;
+    background-color: #F5F5F5; 
+    border: solid;
+    border-color: #dbdbdb ;
+    position: relative;
+    left: 195px;
+    top:150px;
+}
+.tblReg td {
+    width: 557px;
+    height: 80px;
+}
+
+
+.txtUsername{
+    font-family:Arial;
+    font-size:15px;
+}
+
+.txtPassword{
+    font-family:Arial;
+    font-size:15px;
+}
+/*---Button---*/
+.btnReg{
+    height: 47px;
+    width: 210px;
+    text-decoration: none;
+	padding: 15px 25px;
+	font-size: 14px;
+	font-family: "Arial";
+	color: #ffffff;
+	background-color: #cd5c5c ;
+    position: relative;
+    cursor: pointer;
+}
+.btnReg:hover{
+    background-color: #dbdbdb;
+    color: #000000;
 }
