@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="Web_Application2.Register" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    Create New Account
+    Register page - Create New Account
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Heading1" runat="server">
     Register New Account  
@@ -16,7 +16,6 @@
                 <td>
                     <asp:TextBox ID="txtRegEmail" runat="server"  CssClass="txtInput" ToolTip="Fill in username"></asp:TextBox>
                 </td>
-                
             </tr>
             <tr>
                 <td>

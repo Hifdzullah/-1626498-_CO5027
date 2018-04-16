@@ -26,7 +26,7 @@
 <div id="panelheader">
     <ul>
         <li><img src="Images/locateicon.png"><a href="~/Default.aspx" runat="server">LOCATE STORE</a></li>
-        <li><img src="Images/loginicon.png"><a href="~/Product1.aspx" runat="server">LOG IN</a></li>
+        <li><img src="Images/loginicon.png"><asp:HyperLink ID="HyperLink1" NavigateUrl="~/Login.aspx" runat="server">LOGIN</asp:HyperLink></li>
         <li><img src="Images/registericon.png"><a href="~/Register.aspx" runat="server">REGISTER</a></li>
     </ul>
 </div>
