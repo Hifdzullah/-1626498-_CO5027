@@ -21,12 +21,12 @@
             <td>
                 <asp:Label ID="lblPassword" Text="Password" CssClass="txtPassword" runat="server"></asp:Label></td>
             <td>
-                <asp:TextBox ID="txtLogPassword" CssClass="txtInput" ToolTip="Fill in your password" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtLogPassword" CssClass="txtInput" ToolTip="Fill in your password" runat="server" TextMode="Password"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td colspan="2">
-                <asp:Literal ID="litLogMessage" runat="server"></asp:Literal>
+                <asp:Literal ID="litLoginMessage" runat="server"></asp:Literal>
             </td>
         </tr>
         <tr>

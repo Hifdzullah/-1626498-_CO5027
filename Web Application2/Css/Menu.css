@@ -26,8 +26,6 @@
     width: 130px;
     padding-left:24px;
     
-
-   
 }
 
 #nav li a{
@@ -43,6 +41,7 @@
     padding:14px 16px;
 
 }
+
 #nav li a:hover{
     background-color:#d3d3d3;
     color:#ffffff;

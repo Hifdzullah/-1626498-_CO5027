@@ -1,7 +1,18 @@
 ﻿/*---Site.Master StyleSheet---*/
+body {
+	background-color:#DED0D0;  
+    height:1379px; 
+}
+
 #wrapper{
     text-align: center;
     padding: 0 168px;
+}
+
+@media screen and (max-width: 510px){
+    #wrapper{     
+        padding: 0px;
+    }
 }
 
 #page{
@@ -9,9 +20,17 @@
 	background-color: #ffffff;
 	height: 1350px;
     margin: 15px;
-} 
+}
 
-/*---Website header---*/
+@media screen and (max-width: 510px) {
+    #page{
+        width: 510px;
+        height: 3000px;
+    }
+    
+}
+
+/*---Website panel header---*/
 #panelheader{
     width: 100%;
 	height: 42px;
@@ -31,10 +50,18 @@
 }
 
 #panelheader li{
-    float:right;
+    float: right;
     width: 135px;
     padding-right:24px;
     height: 38px;
+}
+@media screen and (max-width:510px){
+    #panelheader li{
+        padding-left:-20px;
+        width: 133px;
+        float: left;
+        
+    }
 }
 
 #panelheader li a{
@@ -55,7 +82,7 @@
    height:16px;
    width:15px;
    float:left;
-   padding:11px;
+   padding:10px;
 }
 
 #header1{
@@ -83,11 +110,6 @@
 
 }
 
-body {
-	background-color:#ded0d0;  
-    height:1379px; 
-}
-
 /*--Search box--*/
 #Searching{
   background-image: url('/Images/searchicon.png');
@@ -103,7 +125,7 @@ body {
   height: 5px;
 }
 
-/*--Website Site.Master stylesheet--*/
+/*-----Website Site.Master stylesheet--*/
 #content{
   margin-top:10px;
   margin:15px;
@@ -120,6 +142,12 @@ body {
   width:767px;
   position:center;
   margin-top:40px;
+}
+
+@media screen and (max-width: 510px){
+    #content h1{
+        text-align: justify;
+    }
 }
 
 #content p{
@@ -144,28 +172,304 @@ body {
     height: 20px;
 }
 
-.imageone{
-    float:left;
-    width:198px;
-    height:188px;
-    padding:10px;  
+#frmProduct{
+    height: 900px;
 }
 
-/*--Product.aspx stylsheet--*/
-.tblhead{
-    width:800px;  
+.repeaterColumn{
+    border-collapse: collapse;
+    margin-top: 12px;
+    margin: 2px;
+    float: left;
+    width: 38%;
+    left: 12px;    
+}
+
+.repeaterColumn::after{
+    
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 510px){
+    .repeaterColumn{
+        float: none;
+    }
 }
 
 .tbl{
-    margin-left:0px;
-    width:996px;
-    height: 342px;
-    margin-right:1px;
+    height: 350px;
+    width: 200px;
+    position: relative;
+    left: 16px;
+}
+
+/*------------Default.aspx----------------*/
+.imgBox{
+    position: relative;
+    transition: 0.3s ease-in-out;
+  
+}
+
+.imgBox::after{
+    position:absolute;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.imgBox:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 0 1px 2px rgba(1,1,1,0.16)
+}
+
+.repeaterImage{
+    width:189px;
+    height:186px;
+    padding: 5px;
+ 
+}
+
+.repeaterColumn td{
+    padding: 8px;  
+    font-family: Helvetica; 
+    font-size: 14px;
+}
+
+.btnViewProduct{
+    height: 35px;
+    width: 125px;
+    font-family: Arial;
+    color: #ffffff;
+    background-color: #cd5c5c;
+    cursor: pointer;
+   
+}
+
+.btnViewProduct:hover{
+    background-color: #dbdbdb;
+    color: #000000;
+}
+
+#imgColumn{
+    position:relative;
+    top:40px;
+    margin-left:10px;
+    width:402px;
+}
+
+.IndoorCatFood{
+    width:360px;
+    height:360px;
+}
+
+/*---Button---*/
+.btnCartButton{
+	padding: 15px 25px;
+	font-size: 15px;
+	font-family:"Arial";
+	text-align: center;
+	color: #ffffff;
+	background-color: #cd5c5c;
+    margin-top:26px;
+    height: 48px;
+    margin-left: 9px;
+    margin-right: 2px;
+    margin-bottom: 20px;
+    width: 184px;
+    cursor:pointer;
+}
+
+.btnCartButton:hover{
+    background-color:#dbdbdb;
+}
+
+#returnbutton1{
+    margin-left: 284px;
+}
+
+.returnbutton1{
+    text-decoration:none;
+    border-style: none;
+	border-width: medium;
+	padding: 15px 25px;
+	font-size: 13px;
+	font-family:"Arial";
+	text-align: center;
+	color: #ffffff;
+	background-color: #cd5c5c;
+    margin-top:26px;
+    height: 48px;
+    margin-left: 36px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 158px;
+}
+.returnbutton1:hover{
+    background-color:#dbdbdb;
+}
+.cartColumn{
+    width: 198px;
+    height:83px;
+    position:relative;
+    left: 24px; 
+    top: 2px;
+       
+}
+#btnColumn2{
+    width: 313px;
+    position:relative;
+    bottom:15px;
+    float:right;
+    right: -200px;  
+}
+
+/*---Column---*/
+#columnHeader{
+    background-color:#dbdbdb;
+    height:68px;
+    width:901px;
+    top:-50px;
+    left: 10px; 
+    position:relative;
+}
+
+#overviewColumn{
+    height:68px;
+    width:901px;
+    background-color:#dbdbdb;
+    right:12px;
+}
+
+#overviewColumn p{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin: 0;
+    position: absolute;
+    left: 628px;
+    top: 763px;
+}
+
+#productColumn{
+    background-color:#dbdbdb;
+}
+
+#productSummary{
+    font-family:Arial;
+    font-size:15px;
+    text-align:left;
+    width:235px;
+    bottom:250px;
+    left:550px;
+    position:relative;
+}
+
+#productSummary ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px; 
+}
+
+#productSummary li{
+    width:215px;
+    border-top:1px solid #dbdbdb;
+    padding:15px 0;  
+}
+
+.stockStatus{
+    border-style:solid;
+    border-color:#dbdbdb;
+    border-width:1px;
+  
+   /*-- position:relative;
+   / width:60px;
+   / left: 686px;
+   / top: -217px;--*/
+    cursor:default;
+}
+
+
+#qtyCartRow{
+    width:457px;
+    height:93px;
+    position:relative;
+    left: 470px; 
+    top: -201px; 
+    border-top:solid;
+    border-width:1px;
+    border-color:#dbdbdb;
+ 
+}
+.qtyRow{
+    width:215px;
+    height:50px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#000000;
+    position:relative;
+    left:226px;
+    top:-57px;
+ 
+}
+.inputContainer p{
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    width:60px;
+    left: 58px;
+    top: 21px;
+}
+
+.qtyBox{
+    border-style:solid;
+    border-color:#000000;
+    border-width:2px;
+    width:60px;
+    height:19px;
+}
+
+#incButton{
+    margin-right:7px;
+}
+
+#decButton{
+    margin-left:7px;
+}
+
+/*------Product.aspx stylesheet------*/
+#introColumn{
+    border-style:solid;
+    border-color:#000000;
+    border-width:1px;
+    width:800px;
+    position:relative;
+    left:37px;
+    top:-141px;   
+}
+
+#introColumn p{
+    font-family:Arial;
+    font-size:15px;
+    text-align:justify;
+   
+}
+
+#introHeader{
+    border-bottom:solid;
+    border-bottom-color:#000000;
+    border-bottom-width:1px;
+}
+
+#introHeader p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:17px; 
+    text-align:center;
 }
 
 /*------Registration.aspx stylesheet-------*/
-#Form1{
-    height:500px;
+#registerForm{
+    height:600px;
 }
 #txtNote{
     font-family:Arial, Helvetica, sans-serif;
@@ -173,20 +477,22 @@ body {
 }
 
 .tblReg{
-    width: 620px; 
+    width: 619px; 
     height: 300px;
     background-color: #F5F5F5; 
     border: solid;
-    border-color: #dbdbdb ;
+    border-width: thin;
+    border-color: #dbdbdb;
+    border-bottom: none;
     position: relative;
     left: 195px;
     top:150px;
 }
+
 .tblReg td {
     width: 557px;
-    height: 80px;
+    height: 35px;
 }
-
 
 .txtUsername{
     font-family:Arial;
@@ -197,7 +503,13 @@ body {
     font-family:Arial;
     font-size:15px;
 }
-/*---Button---*/
+
+.txtErrorMessage{
+    color: #CC3300;
+    font-family: Arial;
+    font-size: 14px;
+}
+
 .btnReg{
     height: 47px;
     width: 210px;
@@ -206,14 +518,32 @@ body {
 	font-size: 14px;
 	font-family: "Arial";
 	color: #ffffff;
-	background-color: #cd5c5c ;
+	background-color: #cd5c5c;
     position: relative;
     cursor: pointer;
 }
+
 .btnReg:hover{
     background-color: #dbdbdb;
     color: #000000;
 }
+
+#registerLiteralColumn{
+
+   width: 615px;
+   height: 30px;
+   background-color: #F5F5F5; 
+   position: relative;
+   top: 149px;
+   left: 195px;
+   border-style: solid;
+   border-width: thin;
+   border-color: #DCDCDC;
+   border-top: none;
+   font-family: Arial;
+   font-size: 14px;  
+}
+
 /*-----Login.aspx stylesheet-----*/
 #Form2{
     height:600px;
@@ -291,4 +621,5 @@ body {
     
     text-decoration: underline;
 }
+
 

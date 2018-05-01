@@ -24,9 +24,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <td></td> 
+                    <td>&nbsp</td> 
                     <td>
-                        <asp:RequiredFieldValidator ID="reqName" runat="server" ControlToValidate="txtName" ErrorMessage="* Field name is required." Font-Names="Arial" Font-Size="Small" ForeColor="#CC3300" Display="Dynamic"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="reqName" runat="server" ControlToValidate="txtName" ErrorMessage="* Field name is required." CssClass="txtErrorMessage" Display="Dynamic"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -42,11 +42,11 @@
                 </tr>
                 <tr>
                     <td>
-                      
+                      &nbsp
                     </td>
                     <td>
-                        <asp:RequiredFieldValidator ID="reqEmail" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="* Field e-mail is required." Font-Names="Arial" Font-Size="Small" ForeColor="#CC3300"></asp:RequiredFieldValidator>
-                        <asp:RegularExpressionValidator ID="reqEmailValidator" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="* Please enter a valid email address." Font-Names="Arial" Font-Size="Small" ForeColor="#CC3300" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                        <asp:RequiredFieldValidator ID="reqEmail" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="* Field e-mail is required." CssClass="txtErrorMessage"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="reqEmailValidator" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="* Please enter a valid email address." CssClass="txtErrorMessage" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                     </td>
                 </tr>            
                 <tr>
@@ -72,7 +72,7 @@
                 <tr>
                     <td></td>
                     <td>
-                        <asp:RequiredFieldValidator ID="reqSubject" runat="server" ErrorMessage="* Field subject is required." ControlToValidate="txtSubject" Display="Dynamic" Font-Names="Arial" Font-Size="Small" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="reqSubject" runat="server" ErrorMessage="* Field subject is required." ControlToValidate="txtSubject" Display="Dynamic" CssClass="txtErrorMessage"></asp:RequiredFieldValidator>
                     </td>
                 </tr>  
                 <tr> 
@@ -86,7 +86,7 @@
                 <tr>
                     <td></td>
                     <td>
-                        <asp:RequiredFieldValidator ID="reqMessage" runat="server" ControlToValidate="txtMessage" Display="Dynamic" ErrorMessage="* Field message is required." Font-Names="Arial" Font-Size="Small" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="reqMessage" runat="server" ControlToValidate="txtMessage" Display="Dynamic" ErrorMessage="* Field message is required." CssClass="txtErrorMessage"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -95,7 +95,7 @@
                     </td>
                 </tr>    
             </table>
-                  <div id="literalColumn">
+                  <div id="contactLiteralColumn">
                         <asp:Literal ID="litResult" runat="server"></asp:Literal> 
                   </div>   
     </form>

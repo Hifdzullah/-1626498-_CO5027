@@ -43,8 +43,7 @@
   <div id="nav">
 <ul>
      <li><a href="Default.aspx" runat="server">HOME</a></li>
-     <li><a href="~/DryFood.aspx" runat="server">DRY FOOD</a></li>
-     <li><a href="~/WetFood.aspx" runat="server">WET FOOD</a></li>
+     <li><a href="~/DryFood.aspx" runat="server">ABOUT US</a></li>
      <li><a href="~/ContactsUs.aspx" runat="server">CONTACT US</a></li>
   </ul>     
    </div>
@@ -63,7 +62,7 @@
      
 <div id="footer">
     <p>&copy;All right reserved.</p>
-    
+    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Admin/index.aspx" >Admin</asp:HyperLink>
 </div>
     </div>
     

@@ -11,7 +11,10 @@ namespace Web_Application2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string ProductID = Request.QueryString["ID"];
+            string imgfile = ProductID + ".jpg";
 
+            imgUpload.ImageUrl = "~/Admin/ProductImages/" + imgfile;
         }
     }
 }

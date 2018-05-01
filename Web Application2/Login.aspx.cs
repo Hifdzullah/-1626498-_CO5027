@@ -19,7 +19,7 @@ namespace Web_Application2
 
         protected void btnLog_Click(object sender, EventArgs e)
         {
-            var identityDbContext = new IdentityDbContext("IdentityConnection String");
+            var identityDbContext = new IdentityDbContext("IdentityConnectionString");
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var userManager = new UserManager<IdentityUser>(userStore);
             var user = userManager.Find(txtLogEmail.Text, txtLogPassword.Text);
@@ -30,15 +30,28 @@ namespace Web_Application2
             }
             else
             {
-                litLogMessage.Text = "Invalid username or password.";
+                litLoginMessage.Text = "Invalid username or password.";
             }
         }
-            
-            private void LoginUser(UserManager<IdentityUser> usermanager, IdentityUser user)
+
+        private void LoginUser(UserManager<IdentityUser> usermanager, IdentityUser user)
         {
             var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
             var userIdentity = usermanager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
             authenticationManager.SignIn(new AuthenticationProperties() { }, userIdentity);
+
+            if (Request.QueryString["ReturnUrl"] != null)
+            {
+                Response.Redirect(Request.QueryString["ReturnUrl"]);
+            }
+            else
+            {
+                string userRoles = usermanager.GetRoles(user.Id).FirstOrDefault();
+                if (userRoles.Equals("Admin"))
+                {
+                    Response.Redirect("~/Admin/index.aspx");
+                }
+            }
         }
     }
 }

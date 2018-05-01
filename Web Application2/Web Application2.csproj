@@ -244,13 +244,18 @@
     <Content Include="Product.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="WetFood.aspx" />
-    <Content Include="Admin\Web.config" />
+    <Content Include="Admin\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Properties\PublishProfiles\CO5027.pubxml" />
+    <None Include="Properties\PublishProfiles\CO5027_1626498.pubxml" />
+    <None Include="Properties\PublishProfiles\CO5027_1626498_Asg.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\locateicon.png" />
     <Content Include="Images\loginicon.png" />
     <Content Include="Images\registericon.png" />
     <Content Include="Images\searchicon.png" />
-    <Content Include="DryFood.aspx" />
+    <Content Include="AboutUs.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -285,7 +290,9 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="ViewSwitcher.ascx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Bundle.config" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
@@ -476,12 +483,12 @@
     <Compile Include="ContactsUs.aspx.designer.cs">
       <DependentUpon>ContactsUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DryFood.aspx.cs">
-      <DependentUpon>DryFood.aspx</DependentUpon>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DryFood.aspx.designer.cs">
-      <DependentUpon>DryFood.aspx</DependentUpon>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

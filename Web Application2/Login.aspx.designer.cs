@@ -58,13 +58,13 @@ namespace Web_Application2 {
         protected global::System.Web.UI.WebControls.TextBox txtLogPassword;
         
         /// <summary>
-        /// litLogMessage control.
+        /// litLoginMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litLogMessage;
+        protected global::System.Web.UI.WebControls.Literal litLoginMessage;
         
         /// <summary>
         /// btnLog control.
